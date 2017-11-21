@@ -1,1 +1,11 @@
-console.log('Hello world from Hands on lab with and automatic updates');
+let a = 'hello';
+
+console.log(a);
+
+{
+  let salary = 90000;
+  let a = 2;
+  console.log(a);
+}
+
+console.log(salary);
