@@ -1,11 +1,14 @@
-let a = 'hello';
+//var a = 'hello';
+//console.log(a);
+
+let a = 'hello'
 
 console.log(a);
 
-{
+{ // private variables
+  //let a = 'goodbye';
+  //console.log('a inside scope', a);
   let salary = 90000;
-  let a = 2;
-  console.log(a);
 }
 
 console.log(salary);
