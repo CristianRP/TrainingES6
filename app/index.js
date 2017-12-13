@@ -1,8 +1,9 @@
-//const a = 2;
-// a = 3*4; read only
+var a = 'hello';
+var b = 'world';
+var c = a + ' ' + b;
+console.log(c);
 
-const array = [1, 2, 3];
-array.push(4);
-console.log(array);
-
-//array = [1]; not reasignable read only 
+let d = `hello ${b}`;
+console.log(d);
+let e = `${a} world`;
+console.log(e);
