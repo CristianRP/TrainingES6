@@ -1,14 +1,8 @@
-//var a = 'hello';
-//console.log(a);
+//const a = 2;
+// a = 3*4; read only
 
-let a = 'hello'
+const array = [1, 2, 3];
+array.push(4);
+console.log(array);
 
-console.log(a);
-
-{ // private variables
-  //let a = 'goodbye';
-  //console.log('a inside scope', a);
-  let salary = 90000;
-}
-
-console.log(salary);
+//array = [1]; not reasignable read only 
