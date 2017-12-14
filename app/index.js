@@ -1,16 +1,29 @@
-//let c = [100, 200];
 /* pre-es6
-let a = c[0];
-let b = c[1];
+let wizard = {magical: true, power: 10};
+let magical = wizard.magical;
+let power = wizard.power;
+
+console.log(magical, power);*/
+
+/*let wizard = {magical: true, power: 10};
+let { power, magical } = wizard;
+console.log(magical, power);
 */
-//let [a, b] = c;
-//console.log(a, b);
+/*
+let ranger = { magical: false, power: 9};
+let { magical, power } = ranger;
+console.log(magical, power);*/
+/*
+let magical = true;
+let power = 2;
 
-/*let fellowship = ["Frodo", "Gandalf", "Aragorn"];
+let ranger = { magical: false, power: 9};
+//let { magical, power } = ranger;
+console.log(magical, power);*/
 
-let [hobbit, wizard, ranger] = fellowship;
-console.log(hobbit, wizard, ranger);*/
+let magical = true;
+let power = 2;
 
-let c = [100, 200, 300, 400, 500];
-let [a, ...b] = c;
-console.log(a, b);
+let ranger = { magical: false, power: 9};
+({ magical, power } = ranger);
+console.log(magical, power);
