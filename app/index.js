@@ -1,15 +1,16 @@
-/*let a = [7, 8 ,9];
-let b = [6, ...a, 10]; // in this case replace de concat function
-console.log(b);*/
+//let c = [100, 200];
+/* pre-es6
+let a = c[0];
+let b = c[1];
+*/
+//let [a, b] = c;
+//console.log(a, b);
 
-/*function print(a, b, c) {
-  console.log(a, b, c);
-}*/
-function print(...z) {
-  console.log(z);
-}
+/*let fellowship = ["Frodo", "Gandalf", "Aragorn"];
 
-let z = [1, 2, 3];
-print(z[0], z[1], z[2]); // pre-es6
-print(...z); // es6
-print(1,2,3, "adsf");
+let [hobbit, wizard, ranger] = fellowship;
+console.log(hobbit, wizard, ranger);*/
+
+let c = [100, 200, 300, 400, 500];
+let [a, ...b] = c;
+console.log(a, b);
